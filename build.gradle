@@ -31,12 +31,12 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'ohtu.ohtuvarasto.main.Main'
+mainClassName = 'main.Main'
 
 // Jar file
 jar {
     manifest {
-        attributes 'Main-Class': 'ohtu.ohtuvarasto.main.Main'
+        attributes 'Main-Class': 'main.Main'
     }
 }
 
