@@ -33,7 +33,7 @@ public class VarastoTest {
     @Test
     public void konstruktoriLuoVarastonJonkaTilavuusOnNolla() {
         varasto = new Varasto(-1);
-        assertEquals(100, varasto.getTilavuus(), vertailuTarkkuus);
+        assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
     }
 
     @Test
